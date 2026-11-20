@@ -1,4 +1,4 @@
-# GoRecrut – site vitrine
+# SOS Staff – site vitrine
 
 Site statique multi-pages (HTML, CSS, JS sans framework), prêt pour Netlify.
 
@@ -25,6 +25,6 @@ Relier ce dépôt à Netlify (Add new site > Import from GitHub). Aucun build n�
 ## À compléter
 - Téléphone / WhatsApp (page Contact)
 - Raison sociale, SIRET, adresse (pied de page)
-- Nom de domaine (gorecrut.fr) : à brancher dans Netlify > Domain settings
+- Nom de domaine (sosstaff.fr) : à brancher dans Netlify > Domain settings
 
 Photos des secteurs : Unsplash (licence libre).
