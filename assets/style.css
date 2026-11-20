@@ -71,7 +71,7 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .tricolore i:nth-child(3) { background: var(--red); }
 .nav .wrap { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 76px; }
 .logo { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; }
-.logo svg { width: 44px; height: 44px; flex: none; }
+.logo svg, .logo img { width: 44px; height: 44px; flex: none; }
 .logo-word { font-family: var(--font-display); font-weight: 800; font-style: italic; font-size: 2rem; white-space: nowrap; line-height: 1; letter-spacing: -0.01em; color: var(--navy); }
 .logo-word span { color: var(--red); }
 .nav-links { display: flex; align-items: center; gap: 26px; }
@@ -268,6 +268,7 @@ footer { background: var(--navy-deep); color: #c3cfee; padding-block: 56px 36px;
 footer .wrap { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 32px; }
 footer .wrap > div { display: grid; gap: 8px; align-content: start; }
 footer .logo-word { color: #ffffff; }
+footer .logo img { width: 52px; height: 52px; }
 footer strong { color: #ffffff; font-family: var(--font-display); text-transform: uppercase; letter-spacing: 0.08em; font-size: 1.05rem; }
 footer a { color: #c3cfee; text-decoration: none; }
 footer a:hover { color: #ffffff; }
