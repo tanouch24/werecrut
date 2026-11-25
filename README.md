@@ -24,7 +24,7 @@ Relier ce dépôt à Netlify (Add new site > Import from GitHub). Aucun build n�
 
 ## À compléter
 - Téléphone / WhatsApp (page Contact)
-- Raison sociale, SIRET, adresse (pied de page)
+- Mentions légales (Espace Racine)
 - Nom de domaine (sosstaff.fr) : à brancher dans Netlify > Domain settings
 
 Photos des secteurs : Unsplash (licence libre).

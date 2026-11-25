@@ -28,13 +28,15 @@
       <img src="img/bouee.webp" width="44" height="44" alt="">
       <span class="logo-word"><span>SOS</span> Staff</span>
     </a>
-    <nav class="nav-links" aria-label="Navigation principale">
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav class="nav-links" id="menu" aria-label="Navigation principale">
       <a href="index.html">Accueil</a>
-      <a href="offres.html">Offres</a>
+      <a href="offres.html">Métiers</a>
       <a href="candidats.html" aria-current="page">Candidats</a>
       <a href="entreprises.html">Entreprises</a>
       <a href="a-propos.html">À propos</a>
-      <a class="btn btn-red" href="contact.html">Postuler</a>
+      <a href="faq.html">FAQ</a>
+      <a class="btn btn-red" href="contact.html">Contact</a>
     </nav>
   </div>
 </header>
@@ -60,14 +62,13 @@
           <p>Partir travailler dans un autre pays, ça se prépare. Nous restons à vos côtés avant, pendant et après votre arrivée.</p>
         </div>
         <div class="welcome">
-          <div class="welcome-item"><span class="num"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 16h18M5 16l2-6h10l2 6M7 19a1 1 0 1 0 0-2M17 19a1 1 0 1 0 0-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><h3>Accueil et transport</h3><p>Nous vous accueillons à votre arrivée et vous accompagnons jusqu'à votre lieu de travail.</p></div></div>
+          <div class="welcome-item"><span class="num"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 16h18M5 16l2-6h10l2 6M7 19a1 1 0 1 0 0-2M17 19a1 1 0 1 0 0-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><h3>Préparation de l'arrivée</h3><p>Nous préparons votre arrivée avec votre employeur.</p></div></div>
           <div class="welcome-item"><span class="num"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l4 4v14H7z M10 13l2 2 4-4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg></span><div><h3>Démarches administratives</h3><p>Autorisation de travail, visa, titre de séjour : nous suivons votre dossier avec vous.</p></div></div>
           <div class="welcome-item"><span class="num"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.2-7-9.5A4 4 0 0 1 12 8a4 4 0 0 1 7 2.5C19 15.8 12 20 12 20z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></span><div><h3>Intégration dans l'entreprise</h3><p>Nous vous accompagnons au démarrage de votre contrat pour que tout se passe bien.</p></div></div>
         </div>
       </div>
     </div>
   </section>
-
   <section class="section alt" id="parcours" aria-labelledby="parcours-titre">
     <div class="wrap">
       <div class="head center reveal">
@@ -80,7 +81,7 @@
         <li class="reveal"><h3>Constitution du dossier</h3><p>Passeport valide, diplôme ou certificat de travail, CV.</p></li>
         <li class="reveal"><h3>Autorisation de travail</h3><p>Le dossier est déposé et suivi jusqu'à la décision.</p></li>
         <li class="reveal"><h3>Visa</h3><p>Rendez-vous au consulat et visite médicale.</p></li>
-        <li class="reveal"><h3>Arrivée en France</h3><p>Accueil et accompagnement jusqu'à votre lieu de travail.</p></li>
+        <li class="reveal"><h3>Arrivée en France</h3><p>Votre arrivée est préparée avec votre employeur.</p></li>
         <li class="reveal"><h3>Démarrage du CDI</h3><p>Vous commencez votre poste, nous restons disponibles.</p></li>
         <li class="reveal"><h3>Titre de séjour</h3><p>Nous vous aidons dans les démarches pour votre carte de séjour.</p></li>
       </ol>
@@ -105,7 +106,7 @@
         <dl class="contact-list">
           <div><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 7l9 6 9-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></span><div><dt>E-mail</dt><dd>contact@sosstaff.fr</dd></div></div>
           <div><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></span><div><dt>Téléphone / WhatsApp</dt><dd><span class="todo">[À compléter]</span></dd></div></div>
-          <div><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s-7-6.5-7-12a7 7 0 0 1 14 0c0 5.5-7 12-7 12z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="2.5" fill="none" stroke="currentColor" stroke-width="2"/></svg></span><div><dt>Implantations</dt><dd>Paris · Lyon · Bordeaux · Marseille</dd></div></div>
+          
         </dl>
       </div>
       <div class="form-card reveal" data-tab="cand">
@@ -113,7 +114,7 @@
           <button type="button" role="tab" id="tab-cand" aria-selected="true" aria-controls="form-candidat">Je suis candidat</button>
           <button type="button" role="tab" id="tab-ent" class="t-ent" aria-selected="false" aria-controls="form-entreprise">Je suis une entreprise</button>
         </div>
-        <form id="form-candidat" name="candidat" method="POST" data-netlify="true" netlify-honeypot="bot-field" enctype="multipart/form-data" role="tabpanel" aria-labelledby="tab-cand">
+        <form id="form-candidat" name="candidat" method="POST" action="/merci.html" data-netlify="true" data-netlify-honeypot="bot-field" enctype="multipart/form-data" role="tabpanel" aria-labelledby="tab-cand">
           <input type="hidden" name="form-name" value="candidat">
           <p class="hp"><label>Ne pas remplir <input name="bot-field"></label></p>
           <div class="row">
@@ -131,11 +132,12 @@
             <div class="field"><label for="c-tel">Téléphone / WhatsApp</label><input id="c-tel" name="telephone" type="tel" placeholder="+212 6 00 00 00 00"></div>
           </div>
           <div class="field"><label for="c-cv">Votre CV (PDF ou photo)</label><input id="c-cv" name="cv" type="file" accept=".pdf,.doc,.docx,image/*"></div>
+          <label class="check"><input type="checkbox" name="accord" required><span>J'accepte que mes données soient étudiées par SOS Staff et La France Recrute, selon la <a href="confidentialite.html">politique de confidentialité</a>.</span></label>
           <button class="btn btn-navy" type="submit">Envoyer ma candidature</button>
           <p class="form-note">Vos données servent uniquement au traitement de votre candidature.</p>
           <p class="form-msg" role="status" hidden></p>
         </form>
-        <form id="form-entreprise" name="entreprise" method="POST" data-netlify="true" netlify-honeypot="bot-field" role="tabpanel" aria-labelledby="tab-ent" hidden>
+        <form id="form-entreprise" name="entreprise" method="POST" action="/merci.html" data-netlify="true" data-netlify-honeypot="bot-field" role="tabpanel" aria-labelledby="tab-ent" hidden>
           <input type="hidden" name="form-name" value="entreprise">
           <p class="hp"><label>Ne pas remplir <input name="bot-field"></label></p>
           <div class="row">
@@ -169,11 +171,11 @@
         <img src="img/bouee.webp" width="44" height="44" alt="">
         <span class="logo-word"><span>SOS</span> Staff</span>
       </a>
-      <p>Cabinet de recrutement international spécialisé dans les métiers en tension en France.</p>
+      <p>Des candidats au Maroc pour les employeurs en France.</p>
     </div>
     <div>
       <strong>Le site</strong>
-      <a href="offres.html">Offres</a>
+      <a href="offres.html">Métiers</a>
       <a href="candidats.html">Candidats</a>
       <a href="entreprises.html">Entreprises</a>
       <a href="a-propos.html">À propos</a>
@@ -181,11 +183,12 @@
     </div>
     <div>
       <strong>Informations</strong>
-      <span>Mentions légales</span>
-      <span>Politique de confidentialité</span>
+      <a href="faq.html">FAQ</a>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="confidentialite.html">Confidentialité</a>
       <span>Photos : Unsplash</span>
     </div>
-    <p class="legal"><span>© 2026 SOS Staff</span><span class="todo">[Raison sociale, SIRET, adresse du siège]</span></p>
+    <p class="legal"><span>© 2026 SOS Staff, une marque d'Espace Racine</span><span>Service privé, sans lien avec l'OFII ni France Travail.</span></p>
   </div>
 </footer>
 

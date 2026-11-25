@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Offres d'emploi en France – SOS Staff</title>
+<title>Métiers recherchés en France – SOS Staff</title>
 <meta name="description" content="Aide-soignant, infirmier, commis de cuisine, boucher, réceptionniste, chauffeur PL, mécanicien, saisonnier : les offres SOS Staff pour travailler en France.">
 <meta name="theme-color" content="#0b2a6f">
 <link rel="icon" href="img/favicon.png" type="image/png">
@@ -11,7 +11,7 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="fr_FR">
 <meta property="og:site_name" content="SOS Staff">
-<meta property="og:title" content="Offres d'emploi en France – SOS Staff">
+<meta property="og:title" content="Métiers recherchés en France – SOS Staff">
 <meta property="og:description" content="Aide-soignant, infirmier, commis de cuisine, boucher, réceptionniste, chauffeur PL, mécanicien, saisonnier : les offres SOS Staff pour travailler en France.">
 <meta property="og:image" content="img/partage.jpg">
 <meta name="twitter:card" content="summary_large_image">
@@ -28,13 +28,15 @@
       <img src="img/bouee.webp" width="44" height="44" alt="">
       <span class="logo-word"><span>SOS</span> Staff</span>
     </a>
-    <nav class="nav-links" aria-label="Navigation principale">
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav class="nav-links" id="menu" aria-label="Navigation principale">
       <a href="index.html">Accueil</a>
-      <a href="offres.html" aria-current="page">Offres</a>
+      <a href="offres.html" aria-current="page">Métiers</a>
       <a href="candidats.html">Candidats</a>
       <a href="entreprises.html">Entreprises</a>
       <a href="a-propos.html">À propos</a>
-      <a class="btn btn-red" href="contact.html">Postuler</a>
+      <a href="faq.html">FAQ</a>
+      <a class="btn btn-red" href="contact.html">Contact</a>
     </nav>
   </div>
 </header>
@@ -45,51 +47,12 @@
     <div class="wrap">
       <nav class="crumbs" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a><span aria-hidden="true">›</span><span>Offres</span></nav>
       <span class="kicker">Rejoignez-nous</span>
-      <h1>Nos offres <span class="red">du moment</span></h1>
+      <h1>Les métiers <span class="red">recherchés</span></h1>
       <p class="lead">La France recrute dans de nombreux métiers. Trouvez le vôtre et postulez en quelques minutes.</p>
     </div>
   </section>
 
-  <section class="section alt" id="offres" aria-labelledby="offres-titre">
-    <div class="wrap">
-            <div class="offers grid" id="offers" tabindex="0" aria-label="Offres d'emploi">
-        <article class="offer"><img src="img/affiche-aides-soignantes.webp" alt="Affiche : on recrute des aides-soignantes" loading="lazy"><div class="offer-foot"><b>Aide-soignant·e</b><a href="contact.html" data-metier="Aide-soignant·e / infirmier·ère">Postuler</a></div></article>
-        <article class="offer"><img src="img/affiche-infirmiers.webp" alt="Affiche : on recrute des infirmiers et infirmières" loading="lazy"><div class="offer-foot"><b>Infirmier·ère</b><a href="contact.html" data-metier="Aide-soignant·e / infirmier·ère">Postuler</a></div></article>
-        <article class="offer"><img src="img/affiche-commis-cuisine.webp" alt="Affiche : on recrute des commis de cuisine" loading="lazy"><div class="offer-foot"><b>Commis de cuisine</b><a href="contact.html" data-metier="Cuisine / boucherie">Postuler</a></div></article>
-        <article class="offer"><img src="img/affiche-boucher.webp" alt="Affiche : on recrute des bouchers et charcutiers" loading="lazy"><div class="offer-foot"><b>Boucher / charcutier</b><a href="contact.html" data-metier="Cuisine / boucherie">Postuler</a></div></article>
-        <article class="offer"><img src="img/affiche-receptionniste.webp" alt="Affiche : on recrute des réceptionnistes" loading="lazy"><div class="offer-foot"><b>Réceptionniste</b><a href="contact.html" data-metier="Hôtellerie">Postuler</a></div></article>
-        <article class="offer"><img src="img/affiche-femme-de-chambre.webp" alt="Affiche : on recrute des femmes de chambre" loading="lazy"><div class="offer-foot"><b>Femme de chambre</b><a href="contact.html" data-metier="Hôtellerie">Postuler</a></div></article>
-        <article class="offer"><img src="img/affiche-chauffeur.webp" alt="Affiche : on recrute des chauffeurs PL et SPL" loading="lazy"><div class="offer-foot"><b>Chauffeur PL / SPL</b><a href="contact.html" data-metier="Chauffeur PL / SPL / autocar">Postuler</a></div></article>
-        <article class="offer"><img src="img/affiche-mecanicien.webp" alt="Affiche : on recrute des mécaniciens VL et PL" loading="lazy"><div class="offer-foot"><b>Mécanicien VL / PL</b><a href="contact.html" data-metier="Mécanicien / carrossier">Postuler</a></div></article>
-        <article class="offer"><img src="img/affiche-carrossier.webp" alt="Affiche : on recrute des carrossiers" loading="lazy"><div class="offer-foot"><b>Carrossier</b><a href="contact.html" data-metier="Mécanicien / carrossier">Postuler</a></div></article>
-        <article class="offer"><img src="img/affiche-saisonnier.webp" alt="Affiche : on recrute des saisonniers agricoles" loading="lazy"><div class="offer-foot"><b>Saisonnier</b><a href="contact.html" data-metier="Saisonnier agricole">Postuler</a></div></article>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="secteurs" aria-labelledby="secteurs-titre">
-    <div class="wrap">
-      <div class="head center reveal">
-        <span class="kicker">Les métiers qui recrutent</span>
-        <h2 id="secteurs-titre">Nos secteurs</h2>
-        <p>Nous recrutons pour les métiers en tension, partout en France.</p>
-      </div>
-      <div class="sectors">
-        <article class="sector reveal"><img src="img/aide-domicile.webp" alt="Une aide à domicile tient les mains d'une dame âgée" loading="lazy"><span class="sector-tag">Service à la personne</span><div class="sector-body"><h3>Aide à domicile</h3><div class="chips"><span>Aide à domicile</span><span>Auxiliaire de vie</span></div></div></article>
-        <article class="sector reveal"><img src="img/medical.webp" alt="Une soignante souriante en tenue médicale" loading="lazy"><span class="sector-tag">Médical</span><div class="sector-body"><h3>Santé</h3><div class="chips"><span>Aide-soignant·e</span><span>Infirmier·ère</span></div></div></article>
-        <article class="sector reveal"><img src="img/restauration.webp" alt="Un chef dresse une assiette en cuisine" loading="lazy"><span class="sector-tag">Restauration</span><div class="sector-body"><h3>Cuisine</h3><div class="chips"><span>Commis de cuisine</span><span>Boucher</span><span>Charcutier</span></div></div></article>
-        <article class="sector reveal"><img src="img/hotellerie.webp" alt="Un employé d'hôtel prépare un lit" loading="lazy"><span class="sector-tag">Hôtellerie</span><div class="sector-body"><h3>Hôtellerie</h3><div class="chips"><span>Réceptionniste</span><span>Femme / valet de chambre</span></div></div></article>
-        <article class="sector reveal"><img src="img/transport.webp" alt="Un chauffeur devant son camion" loading="lazy"><span class="sector-tag">Transport</span><div class="sector-body"><h3>Transport</h3><div class="chips"><span>Chauffeur PL / SPL</span><span>Autocar</span></div></div></article>
-        <article class="sector reveal"><img src="img/mecanique.webp" alt="Un mécanicien travaille sur un moteur" loading="lazy"><span class="sector-tag">Automobile</span><div class="sector-body"><h3>Automobile</h3><div class="chips"><span>Mécanicien VL / PL</span><span>Carrossier</span></div></div></article>
-      </div>
-      <div class="skills">
-        <div class="skill reveal"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16v12H4zM9 7V5h6v2" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></span><div><h3>Expérience</h3><p>Une expérience dans le métier, ou un diplôme dans le domaine.</p></div></div>
-        <div class="skill reveal"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M7 10h5M7 14h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><div><h3>Permis de conduire</h3><p>Souvent nécessaire pour les déplacements professionnels.</p></div></div>
-        <div class="skill reveal"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9l9-5 9 5-9 5z M7 11.5V16c0 1.5 2.2 3 5 3s5-1.5 5-3v-4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></span><div><h3>Formation SOS Staff</h3><p>Lexique et méthodes de travail françaises, intégrés à l'accompagnement.</p></div></div>
-      </div>
-    </div>
-  </section>
-
+  <section class="section"><div class="wrap"><div class="job-grid"><article class="job reveal"><img src="img/aide-domicile.webp" alt="" loading="lazy"><div><h2>Aide à domicile</h2><p>Repas, entretien du logement, courses, présence auprès des personnes âgées.</p><a class="btn btn-red" href="contact.html" data-metier="Aide à domicile / auxiliaire de vie">Postuler</a></div></article><article class="job reveal"><img src="img/medical.webp" alt="" loading="lazy"><div><h2>Santé</h2><p>Professions réglementées : le diplôme doit être reconnu en France avant l'embauche.</p><a class="btn btn-red" href="contact.html" data-metier="Aide-soignant·e / infirmier·ère">Postuler</a></div></article><article class="job reveal"><img src="img/restauration.webp" alt="" loading="lazy"><div><h2>Cuisine</h2><p>Commis, cuisiniers, bouchers, charcutiers.</p><a class="btn btn-red" href="contact.html" data-metier="Cuisine / boucherie">Postuler</a></div></article><article class="job reveal"><img src="img/hotellerie.webp" alt="" loading="lazy"><div><h2>Hôtellerie</h2><p>Réception, étages, service en chambre.</p><a class="btn btn-red" href="contact.html" data-metier="Hôtellerie">Postuler</a></div></article><article class="job reveal"><img src="img/transport.webp" alt="" loading="lazy"><div><h2>Transport</h2><p>Poids lourds et autocar, selon la validité des permis en France.</p><a class="btn btn-red" href="contact.html" data-metier="Chauffeur PL / SPL / autocar">Postuler</a></div></article><article class="job reveal"><img src="img/mecanique.webp" alt="" loading="lazy"><div><h2>Automobile</h2><p>Mécanique légère et poids lourd, carrosserie.</p><a class="btn btn-red" href="contact.html" data-metier="Mécanicien / carrossier">Postuler</a></div></article><article class="job reveal"><img src="img/saisonnier.webp" alt="" loading="lazy"><div><h2>Agriculture</h2><p>Récoltes, vendanges, travaux saisonniers.</p><a class="btn btn-red" href="contact.html" data-metier="Saisonnier agricole">Postuler</a></div></article></div></div></section>
   <section class="final" aria-label="Appel final">
     <div class="wrap reveal">
       <h2>Prêt pour le départ&nbsp;?</h2>
@@ -109,11 +72,11 @@
         <img src="img/bouee.webp" width="44" height="44" alt="">
         <span class="logo-word"><span>SOS</span> Staff</span>
       </a>
-      <p>Cabinet de recrutement international spécialisé dans les métiers en tension en France.</p>
+      <p>Des candidats au Maroc pour les employeurs en France.</p>
     </div>
     <div>
       <strong>Le site</strong>
-      <a href="offres.html">Offres</a>
+      <a href="offres.html">Métiers</a>
       <a href="candidats.html">Candidats</a>
       <a href="entreprises.html">Entreprises</a>
       <a href="a-propos.html">À propos</a>
@@ -121,11 +84,12 @@
     </div>
     <div>
       <strong>Informations</strong>
-      <span>Mentions légales</span>
-      <span>Politique de confidentialité</span>
+      <a href="faq.html">FAQ</a>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="confidentialite.html">Confidentialité</a>
       <span>Photos : Unsplash</span>
     </div>
-    <p class="legal"><span>© 2026 SOS Staff</span><span class="todo">[Raison sociale, SIRET, adresse du siège]</span></p>
+    <p class="legal"><span>© 2026 SOS Staff, une marque d'Espace Racine</span><span>Service privé, sans lien avec l'OFII ni France Travail.</span></p>
   </div>
 </footer>
 

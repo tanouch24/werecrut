@@ -37,7 +37,7 @@
   document.querySelectorAll('.form-card form').forEach(function (f) {
     f.addEventListener('submit', function (e) {
       var msg = f.querySelector('.form-msg');
-      var bad = [].slice.call(f.querySelectorAll('[required]')).filter(function (i) { return !i.value.trim(); });
+      var bad = [].slice.call(f.querySelectorAll('[required]')).filter(function (i) { return i.type === 'checkbox' ? !i.checked : !i.value.trim(); });
       if (bad.length) { e.preventDefault(); msg.textContent = 'Merci de remplir tous les champs obligatoires.'; msg.hidden = false; bad[0].focus(); return; }
       if (!live) { e.preventDefault(); msg.textContent = 'Aperçu : une fois le site en ligne sur Netlify, ce formulaire vous sera transmis directement.'; msg.hidden = false; }
     });
@@ -53,3 +53,5 @@
     });
   }
 })();
+
+document.querySelectorAll('.menu-btn').forEach(function (b) { b.addEventListener('click', function () { var o = document.getElementById('menu').classList.toggle('open'); b.setAttribute('aria-expanded', String(o)); }); });
