@@ -33,7 +33,7 @@
     b.addEventListener('click', function () { row.scrollBy({ left: Number(b.dataset.scroll) * row.clientWidth * 0.8, behavior: 'smooth' }); });
   });
   // Formulaires : envoi réel sur Netlify, message de maquette ailleurs
-  var live = /netlify\.app$|sosstaff\.fr$/.test(location.hostname);
+  var live = /netlify\.app$|sos-recrutement\.fr$/.test(location.hostname);
   document.querySelectorAll('.form-card form').forEach(function (f) {
     f.addEventListener('submit', function (e) {
       var msg = f.querySelector('.form-msg');

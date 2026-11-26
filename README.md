@@ -1,4 +1,4 @@
-# SOS Staff – site vitrine
+# SOS Recrutement – site vitrine
 
 Site statique multi-pages (HTML, CSS, JS sans framework), prêt pour Netlify.
 
@@ -25,6 +25,6 @@ Relier ce dépôt à Netlify (Add new site > Import from GitHub). Aucun build n�
 ## À compléter
 - Téléphone / WhatsApp (page Contact)
 - Mentions légales (Espace Racine)
-- Nom de domaine (sosstaff.fr) : à brancher dans Netlify > Domain settings
+- Nom de domaine (sos-recrutement.fr) : à brancher dans Netlify > Domain settings
 
 Photos des secteurs : Unsplash (licence libre).
